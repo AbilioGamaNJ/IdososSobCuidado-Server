@@ -1,6 +1,6 @@
-const { where } = require('sequelize')
 const db = require('../models')
 const Cuidador = db.cuidador
+
 
 exports.findAll = async () => {
  try{
